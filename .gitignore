@@ -1,0 +1,65 @@
+# =====================================================================
+# Secrets & Environment Variables (Never commit actual passwords)
+# =====================================================================
+.env
+.env.local
+.env.*.local
+*.env
+.env*
+!.env.example
+
+# =====================================================================
+# Python Virtual Environments & Cache
+# =====================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+env/
+*.egg-info/
+.pytest_cache/
+
+# =====================================================================
+# Next.js, Node.js & Build Outputs
+# =====================================================================
+node_modules/
+frontend-nextjs/node_modules/
+.next/
+frontend-nextjs/.next/
+out/
+frontend-nextjs/out/
+build/
+dist/
+.turbo/
+
+# =====================================================================
+# Temporary Test & Scratch Scripts
+# =====================================================================
+scratch/
+frontend-nextjs/scratch/
+test-*.mjs
+test-*.js
+frontend-nextjs/test-*.mjs
+frontend-nextjs/test-*.js
+
+# =====================================================================
+# Logs & System Files
+# =====================================================================
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =====================================================================
+# IDEs & Editor Tooling
+# =====================================================================
+.vscode/
+.idea/
+.claude/
+*.tsbuildinfo
+frontend-nextjs/*.tsbuildinfo
